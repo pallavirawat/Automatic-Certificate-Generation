@@ -14,7 +14,7 @@ def run(*args):
             name_layer=filter(lambda x: x.name == '<name>',bg_image.layers)[0]
             pdb.gimp_text_layer_set_font(name_layer,'Comic Sans MS')
     
-            pdb.gimp_text_layer_set_font_size(name_layer,116,0)
+            pdb.gimp_text_layer_set_font_size(name_layer,116,0) #Change how name (from input will appear. Eg. Size,Font etc
             pdb.gimp_text_layer_set_text(name_layer,name)
             merged = pdb.gimp_image_merge_visible_layers(bg_image,0)
             output_filename=name+str(i)+".png"
