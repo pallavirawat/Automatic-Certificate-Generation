@@ -1,10 +1,10 @@
 ## Automatic Certificate Generation Using Gimp
 It automatically generates certificates by taking input from a input file (can be txt) with names stored line by line.
 
-##Prerequisites
+## Prerequisites
 GIMP and Python 2.7 installed
 
-##Installation
+## Installation
 1. Give permissions to "Automatic_Certificate_Generator.py" file. Use the command: <br />
         sudo chmod +x Automatic_Certificate_Generator.py
 2. Copy "Automatic_Certificate_Generator.py" in /usr/lib64/gimp/2.x/plug-ins
